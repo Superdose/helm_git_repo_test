@@ -3,7 +3,7 @@ entries:
   gitrepotest:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-11-26T14:34:13.7661187+01:00"
+    created: "2021-11-26T15:04:33.607433+01:00"
     description: A helm chart repo using git repo
     digest: 2e302f95b0fb199be9de87581fdcd8ea1a52d072ec0f44d3e9e965b6716b9056
     name: gitrepotest
@@ -11,4 +11,15 @@ entries:
     urls:
     - gitrepotest-0.1.0.tgz
     version: 0.1.0
-generated: "2021-11-26T14:34:13.7581254+01:00"
+  gitrepotest2:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-11-26T15:04:33.6094716+01:00"
+    description: The second repo for the git repository
+    digest: 14a324a1a5e3f0aa3d810d97e918434da182a862003777c24a28cbc408a0b6a4
+    name: gitrepotest2
+    type: application
+    urls:
+    - gitrepotest2-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-11-26T15:04:33.6005234+01:00"
